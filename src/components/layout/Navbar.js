@@ -12,7 +12,7 @@ function Navbar(props) {
       </h1>
       <ul>
         <li>
-          <Link to="/home">Home</Link>
+          <Link to="/home">Search</Link>
         </li>
         <li>
           <Link to="/about">About</Link>
