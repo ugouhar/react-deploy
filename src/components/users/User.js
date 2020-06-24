@@ -41,7 +41,7 @@ export class User extends Component {
 
     return (
       <Fragment>
-        <Link to="/" className="btn btn-light">
+        <Link to="/home" className="btn btn-light">
           Back to Search
         </Link>
         Hireable :
