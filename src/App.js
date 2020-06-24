@@ -68,7 +68,7 @@ class App extends Component {
             <Switch>
               <Route
                 exact
-                path="/home"
+                path="/react-deploy/home"
                 render={(props) => (
                   <Fragment>
                     <Search
@@ -81,7 +81,7 @@ class App extends Component {
                   </Fragment>
                 )}
               />
-              <Route exact path="/about" component={About} />
+              <Route exact path="/react-deploy/about" component={About} />
               <Route
                 exact
                 path="/user/:login"
