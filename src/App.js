@@ -84,7 +84,7 @@ class App extends Component {
               <Route exact path="/react-deploy/about" component={About} />
               <Route
                 exact
-                path="/user/:login"
+                path="/react-deploy/user/:login"
                 render={(props) => (
                   <User
                     {...props}

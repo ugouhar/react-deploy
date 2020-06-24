@@ -12,10 +12,10 @@ function Navbar(props) {
       </h1>
       <ul>
         <li>
-          <Link to="/home">Search</Link>
+          <Link to="/react-deploy/home">Search</Link>
         </li>
         <li>
-          <Link to="/about">About</Link>
+          <Link to="/react-deploy/about">About</Link>
         </li>
       </ul>
     </nav>
